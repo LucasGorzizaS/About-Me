@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
 body {
+	margin: 0px;
+	font-family: "Poppins", sans-serif;
 	background-color: #1f2235;
+}
+P {
+	color: #ffffff;
+}
+/* Cabeçalho */
+.navbar {
+	background-color: #252b49;
+	display: flex;
+	height: 70px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+}
+
+.navbar p {
+	margin: 10px;
+	font-size: 20px;
+	color: #ff4a57;
 }
