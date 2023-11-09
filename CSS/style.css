@@ -2,11 +2,29 @@
 
 body {
 	margin: 0px;
-	font-family: "Poppins", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	background-color: #1f2235;
 }
-P {
+p {
+	color: #ece2e2;
+	letter-spacing: 1.5px;
+	line-height: 25px;
+	display: inline;
+}
+h1 {
 	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	letter-spacing: 3px;
+	padding-top: 15px;
+	border-top: 1px solid #ff4a57;
+}
+ul {
+	color: #ece2e2;
+	letter-spacing: 1.5px;
+}
+.destaque {
+	color: #ff4a57;
 }
 /* Cabeçalho */
 .navbar {
@@ -23,4 +41,57 @@ P {
 	margin: 10px;
 	font-size: 20px;
 	color: #ff4a57;
+}
+/* Corpo */
+.section1 {
+	/* margin-left: 250px;
+	margin-right: 250px; */
+	display: flex;
+	height: 600px;
+	width: 100%;
+	align-items: center;
+}
+.texto1-section1 {
+	margin-top: 70px;
+	margin-left: 25%;
+	flex: 25%;
+}
+.img1-section1 {
+	margin-top: 70px;
+	padding-left: 70px;
+	margin-right: 25%;
+	max-width: 300px;
+	flex: 25%;
+}
+.section2 {
+	display: flex;
+	height: 380px;
+	width: 100%;
+	align-items: center;
+}
+.texto1-section2 {
+	margin-top: 70px;
+	margin-right: 25%;
+	flex: 25%;
+}
+.img1-section2 {
+	margin-top: 70px;
+	padding-right: 70px;
+	margin-left: 25%;
+	max-width: 300px;
+	flex: 25%;
+}
+.section3 {
+	display: flex;
+	height: 380px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.texto1-section3 {
+	margin-top: 70px;
+	/* margin-right: 25%;
+	margin-left: 25%; */
+	/* flex: 50%; */
+	/* max-width: 451.59px; */
 }
